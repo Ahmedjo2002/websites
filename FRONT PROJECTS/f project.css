@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{background-color: #001;
+color: white;
+display: flex;}
+.div1{
+    width: 60px;
+    height: 100vh;
+    padding: 20px;
+    background-color: #123;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.div1:hover{
+    width: 260px;
+}
+
+
+ul{
+list-style: none;
+position: relative;
+height: 95%;}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px   ;
+    margin: 10px  0;
+
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-transform: capitalize;
+
+}
+.log-out{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    
+}
+.log-out a{
+    background: red;
+}
+ul li a:hover , .dash , .cont1:hover , td:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.profile img{
+    width: 100%
+    
+}
+.profile{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+overflow: hidden;
+border: 3px white solid;
+flex-shrink: 0;
+}
+.img{
+    display: flex;
+align-items: center;
+gap: 30px;}
+ul li i {
+    font-size: 30px ;
+}
+.div2{
+    width: 100%;
+}
+.div22{
+     
+    height: 30px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgb(52, 119, 219);
+}
+.cont1
+{
+    margin: 10px;
+   flex-basis: 300px;
+    background-color: #123;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    flex-grow: 1;
+    transition: .5s;
+}
+.cont1 i{
+    font-size: 50px;
+}
+.cont1 div{
+    text-align: center;
+}
+.cont1 div span{
+    font-size: 30px;
+}
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+table{
+    text-align: center;
+    margin: 10px ;
+    padding: 10px;
+    border-spacing: 10px;
+    width: 100%;
+}
+th , td {
+    border-radius: 10px;
+    height: 60px;
+    background-color: #123;
+
+    transition: 0.5s;
+}
+th{
+    background-color: rgb(52, 119, 219);
+}
+.div2 .price{
+    background-color: green;
+}
+.div2 .price1{
+    background-color: gold;
+}

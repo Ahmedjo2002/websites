@@ -1,0 +1,48 @@
+*{padding: 0;
+    margin: 0;}
+div{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 100%;
+height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.42),rgba(17, 34, 51, 0.658)), url(clark-street-bridge-4k-background-for-computer-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+form{
+    padding:40px 10px;
+    background-color: transparent;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 0 20px;
+    margin: 3px 3px;
+    background-color: transparent;
+    border: 1px white solid;
+    outline: none;
+    flex-basis: 200px;
+    height: 40px;
+    color: black;
+}
+form button{
+    height: 40px;
+    flex-basis: 240px;
+    padding: 0 20px;
+    margin: 3px 3px;
+    flex-grow: 1;
+    background-color:  transparent;
+    cursor:progress;
+    border: 1px white solid;
+    text-align: center;
+    color: white;
+}
