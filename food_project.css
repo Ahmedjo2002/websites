@@ -1,0 +1,544 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(249, 242, 232);
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(#0000005a,#1122335a),url(img/home_bg.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: auto;
+    align-items: center;
+    
+
+
+}
+header img{
+    width: 100px;
+}
+header ul{ 
+    display: flex;
+    justify-content: center;
+}
+header ul li{
+    display: inline-block;
+
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 3px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+header ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+header ul li a:hover{
+    color: gold;
+}
+header ul li:hover{
+    transform: scale(1.1);
+}
+.home_text{
+margin-top: 150px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+}
+.home_text h1{
+    padding: 20px 5px;
+    color: white;
+    letter-spacing: 2px;
+}
+.home_text h1 span{
+    color: gold;
+}
+.home_text p{
+    color: white;
+    padding: 0 0 10px ;
+    margin: 5px 0;
+
+}
+.home_text button{
+    margin-top: 50px;
+    background:transparent ;
+    color: white;
+    padding: 10px 20px;
+    border: 1px white solid;
+    border-radius: 7px;
+    transition: 0.5s;
+    font-weight: 600;
+
+}
+.home_text button:hover{
+    background-color: gold;
+    color: black;
+}
+#about_parent{
+    width: 100%;
+    min-height: 80vh;
+    background-color: rgb(228, 227, 221);
+    transition: all 0.5s ease;
+
+   
+}
+.about{
+    
+    min-height: 80vh;
+    
+
+   
+
+    
+}
+#about_parent center{
+    color: rgb(56, 53, 53);
+    padding: 20px 10px;
+    text-shadow: 1px 1px 2px black;
+    margin: 5px 0;
+}
+
+.about h1{
+    color: rgb(56, 53, 53);
+    padding: 10px 10px;
+    margin: 5px 0;
+}
+.about p{
+   
+    margin:5px 0;
+    text-shadow: 1px 1px 2px black;
+
+    color: rgb(60, 59, 59);
+}
+.about .text{
+display: flex;
+justify-content: space-between;
+    align-items: center;
+}
+.about .text .text_about{
+
+    text-shadow: 1px 1px 2px black;
+
+padding:0 40px;
+}
+.about .text .image_about{
+    padding:0 40px ;
+    margin: 10px;
+}
+.about .text .image_about img{
+    width: 400px;
+    margin: 10px;
+
+
+}
+.about .text .text_about p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    line-height: 25px;
+    color: rgb(60, 59, 59);
+}
+.about .text .text_about button{
+    padding: 20px 0;
+    width: 150px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgb(20, 20, 53);
+    color: white;
+    transition: 0.5s;
+    
+}
+.about .text .text_about button:hover{
+    background-color: gold;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 1px 1px 3px black;
+}
+
+.offers{
+    background: url(img/offer-background.jpg) center center/cover fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+    
+}
+.offers .food_offers{
+    display: flex;
+    justify-content: space-evenly;
+
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+    margin-top: 45px;
+}
+.offers h1{
+    font-size: 35px;
+    margin: 10px 5px;
+    color: gold;
+
+}
+.offers p{
+    color: antiquewhite;
+    margin: 10px 0;
+}
+.offers .food_offers .food1 img{
+    width: 200px;
+    
+}
+
+.food1{
+    
+    margin: 0 20px;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offers span{
+    color: gold;
+}
+.offers del{
+    color: grey;
+}
+#menu{
+
+width: 100%;
+min-height: 130vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#menu img{
+    width: 80px;
+    border-radius: 50%;
+
+}
+
+.menu_child{
+margin: 20px 0;
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+#menu .menu_child .child1{
+    display: flex;
+    justify-content: space-between;
+width: 400px;
+margin-bottom: 3px;
+}
+#menu .menu_child .child1 h3{
+
+font-weight: 600;
+color: rgb(39, 39, 81);
+
+}
+#menu .menu_child .border{
+    border-top: 2px dashed rgb(159, 158, 158);
+    margin: 10px 0;
+}
+#menu .menu_child span{
+color: rgb(230, 195, 0);
+}
+#menu .menu_grid{
+    margin-top: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+column-gap: 50px;
+
+
+
+
+}
+#menu .menu_child .parag{
+    color: rgb(109, 109, 109);
+}
+#menu center h1{
+ margin: 10px 0;
+    color: gold;
+}
+#menu center p{
+    margin: 10px 0;
+       color: rgb(82, 82, 82);
+       font-weight: 600;
+   }
+   #menu button{
+background-color: gold;
+
+padding: 25px 40px;
+margin: 30px 0;
+border-radius: 7px;
+border: none;
+font-weight: 600;
+transition: 0.5s;
+   }
+   #menu button:hover{
+    background-color: rgb(29, 29, 69);
+    color: white;
+   }
+
+.daytime{
+    width: 100%;
+    min-height: 50vh;
+    background: url(img/daytime_bg.jpeg) center center/cover fixed;
+
+}
+.time_plan{
+    margin: auto;
+    width: 80%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   }
+   .daytime .time_plan .breakfast h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    margin: 5px 0;
+
+   }
+   .daytime .time_plan .breakfast p{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    margin: 5px 0;
+
+   }
+   .breakfast{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+
+
+.daytime .time_plan img{
+    padding: 20PX 0;
+    width: 150px;
+    height: 120PX;
+} 
+#gallery{
+    margin: auto;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(img/offer-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   }
+#gallery .gall_img{
+    height: 100%;
+margin: auto;
+margin-top: 50px;
+width: 60%;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+#gallery .gall_img img{
+    width: 250px;
+    height:200px;
+    border-radius: 8px;
+    transition: 0.5s;
+    opacity: 0.8;
+    margin: 10px;
+}
+#gallery center h1{
+color: gold;
+padding: 20px 0;
+margin-top:120px ;
+}
+#gallery div img:hover{
+
+opacity: 1;}
+
+
+#contact_us{
+margin: auto;
+    width: 80%;
+    min-height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#contact_us .div2{
+    padding-top: 30px;
+}
+#contact_us .div1,#contact_us .div2{
+    margin: 30px 0;
+}
+#contact_us .div1 h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(10, 17, 61);
+    padding: 5px 0;
+    margin: 20px 0;
+    text-align: left;
+}
+#contact_us .div1 p ,#contact_us .div1 span{
+    color: gray;
+    font-weight: 600;
+    line-height: 30px;
+}
+#contact_us .div1 i{
+    padding: 5px 5px;
+    font-size: 20px;
+
+}
+
+#contact_us .div2 form input{
+    display: flex;
+    flex-direction: column;
+width: 350px;
+padding: 20px;
+height: 30px;
+background-color: rgb(231, 216, 141);
+border: none;
+border-radius: 7px;
+margin: 5px 0;
+
+} 
+#contact_us .div2 form textarea{
+    width: 350px;
+padding: 20px;
+
+background-color: rgb(231, 216, 141);
+border: none;
+border-radius: 7px;
+margin: 5px 0;
+}
+
+#contact_us .div2 button{
+    background-color: rgb(192, 175, 90);
+    color: black;
+    padding: 15px 40px;
+    margin: 5px 0;
+    border-radius: 7px;
+    border: none;
+    transition: 0.5s;
+}
+#contact_us .div2 button:hover{
+
+background-color: #111433;
+color: white;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#111433 ;
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
+
+
+@media (max-width:650px){
+.about .text{
+    flex-direction: column;
+    width:100%;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+
+ 
+}
+
+
+
+.about .text .text_about p{
+    
+    font-size: 18px;
+
+    
+}
+
+
+
+.home_text{
+text-align: center;
+}
+.offers .food_offers{
+    flex-direction: column;
+    justify-content: center;
+}
+.offers .food_offers .food1 p{
+    width: 100%;
+    text-align: center;
+}
+.offers .food_offers .food1 h1{
+    font-size: 25px;
+}
+.offers .food_offers .food1{
+   
+padding-left: 120px;
+margin: 20px 0;
+    width: 50%;
+}
+.offers .food_offers .food1 img{
+    width: 150px;
+}
+.time_plan{
+flex-direction: column;
+}
+#contact_us{
+    flex-direction: column  ;
+}
+.menu_grid .menu_child{
+width: 500px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media (min-width:651px) and (max-width:1150px){
+
+   .home_text{
+    text-align: center;
+   } 
+.about .text{
+
+    flex-direction: column;
+    text-align: center;
+}
+.menu_grid .menu_child{
+
+width: 500px;
+}
+
+}
